@@ -16,7 +16,5 @@ public class CASDemo {
         System.out.println(result+"\t"+atomicInteger.get());
         result=atomicInteger.compareAndSet(5,40);
         System.out.println(result+"\t"+atomicInteger.get());
-
-
     }
 }
