@@ -51,6 +51,7 @@ public class SingletonDemo {
              }
          }
         return instance;
+         
     }
 
     public static void main(String[] args) {
